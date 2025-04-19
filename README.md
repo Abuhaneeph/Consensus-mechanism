@@ -7,8 +7,7 @@ In the world of blockchain and cryptocurrencies, you'll often hear the term "con
 A consensus mechanism is essentially a method that allows all participants in a blockchain network to agree on the current state of the system. Think of it as the rulebook that everyone follows to make decisions together.
 
 Imagine you and your friends are keeping track of who owes who money in a shared notebook. How do you ensure nobody tampers with the records? In traditional systems, you might trust a single person (like a bank) to maintain this ledger. In blockchain, consensus mechanisms replace this central authority by creating rules that allow all participants to maintain and validate the ledger together.
-
-![Alt text](consensus.png)
+![Consensus](consensus.png)
 ## Why Do We Need Consensus Mechanisms?
 
 Consensus mechanisms solve several critical problems:
@@ -16,7 +15,7 @@ Consensus mechanisms solve several critical problems:
 1. **The Double-Spending Problem**: Preventing someone from spending the same digital money twice.
 2. **Byzantine Generals' Problem**: Ensuring reliable agreement among distributed participants who might be malicious or faulty.
 3. **Decentralized Trust**: Creating a trustworthy system without requiring a central authority.
-![Description](byzantine.jpg)
+![Byzantine](byzantine.jpg)
 
 ## Popular Consensus Mechanisms
 
@@ -30,7 +29,7 @@ Proof of Work is like a complex mathematical competition. Here's how it works:
 2. The first to solve the puzzle gets to add a new block to the blockchain.
 3. The solution is easily verifiable by others in the network.
 4. The winner receives a reward (newly minted coins and transaction fees).
-![Description](work.png)
+![Proof of Work](work.png)
 
 **Advantages**:
 - Battle-tested security (Bitcoin has been running on PoW since 2009)
@@ -50,7 +49,7 @@ Instead of competing with computational power, Proof of Stake selects validators
 1. Validators put up a stake (deposit) of the network's cryptocurrency.
 2. The protocol randomly selects validators to create new blocks, with higher stakes increasing chances of selection.
 3. If validators attempt to cheat, they lose part or all of their stake.
-![Description](stake.png)
+![Stake](stake.png)
 
 **Advantages**:
 - Energy efficient (uses ~99.95% less energy than PoW)
@@ -123,7 +122,7 @@ Newer approaches include:
 - **Proof of History** (Solana): A way to create a historical record that proves events occurred at a specific time
 - **Avalanche Consensus**: A metastable consensus protocol that combines elements of voting-based and Nakamoto consensus
 - **Hybrid Models**: Combinations of different consensus mechanisms to leverage the advantages of each
-![Description](trilemna.png)
+![Trilemma](trilemna.png)
 
 ## Conclusion
 
